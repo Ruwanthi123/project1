@@ -1,0 +1,19 @@
+package demo
+
+object demo {
+
+  def sum(num1:Int, num2:Int):Double={
+    //int num3 = 0;
+    var num3:Double = 0
+    num3 = (22).toDouble./(7:Double)
+
+
+
+    return num3
+  }
+
+  
+  def main(args: Array[String]): Unit = {
+    println("Sum is : " + sum(1, 2))
+  }
+}
